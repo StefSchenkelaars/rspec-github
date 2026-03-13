@@ -3,9 +3,8 @@
 source 'https://rubygems.org'
 
 # Specify your gem's dependencies in rspec-github.gemspec
-gemspec
+gemspec path: '../'
 
 group :development do
-  gem 'rspec', '~> 3.13'
-  gem 'rubocop', '~> 1.85.0'
+  gem 'rspec', '~> 4.0.0.beta1'
 end
